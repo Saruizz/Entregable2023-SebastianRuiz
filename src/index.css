@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
+    padding: 15px 0px 0px 0px;
   }
   
   .App {
@@ -15,12 +15,17 @@ body {
   }
   
   h1 {
+    text-align: center;
     font-size: 24px;
     color: #333;
   }
   
   form {
     margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9;
   }
   
   label {
@@ -30,8 +35,8 @@ body {
   }
   
   input {
-    width: 100%;
-    padding: 10px;
+    width: 90%;
+    padding: 10px 5px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;

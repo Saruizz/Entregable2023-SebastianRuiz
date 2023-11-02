@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Card from './Card';
-import './index.css';
 
   function App() {
 
@@ -45,7 +44,7 @@ import './index.css';
           />
         </div>
         <div>
-          <label htmlFor="input2">Ingresa tu pelicula favorita:</label>
+          <label htmlFor="input2">Ingresa tu serie favorita:</label>
           <input
             type="text"
             id="input2"
